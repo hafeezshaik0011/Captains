@@ -11,7 +11,8 @@ import SwiftUI
 struct CaptainsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomepageView()
+                .environmentObject(Shop())
         }
     }
 }
